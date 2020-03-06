@@ -24,7 +24,7 @@
                 <div class="col-md-4 header__contacts">
                     <p class="header__contacts_phone1">+7(499) 777-77-77</p>
                     <p class="header__contacts_phone2">+7(499) 777-77-77</p>
-                    <button class="header__contacts_btn"><b>Обратная связь</b></button>
+                    <a class="header__contacts_btn popup-with-form" href="#form"><b>Обратная связь</b></a>
                 </div>
             </div>
         </div>
@@ -224,12 +224,8 @@
         </fieldset>
     </form>
 -->
-<!--
-    ЭТО МОЯ ФОРМА
-    <a class="popup-with-form" href="#test-form">Open form</a>
-    <div class="popup_window">
-        <div class="frame">
-            <form action="#" method="POST" enctype="text/plain" autocomplete="on" id="test-form" class="mfp-hide white-popup-block frame__form">
+    <div class="hidden">
+            <form action="#" method="POST" enctype="text/plain" autocomplete="on" id="form" class="mfp-hide white-popup-block frame__form">
                 <p>Обратная связь</p>
                 <ul>
                     <li>
@@ -251,12 +247,7 @@
                 </ul>
                 <input type="submit" id="submit" value="Отправить">
             </form>
-            <button type="reset">
-                <img src="img/esc.png" alt="escape button">
-            </button>
-        </div>
     </div>
--->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>

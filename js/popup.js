@@ -17,3 +17,18 @@ $(document).ready(function() {
 		}
 	});
 });
+
+/*
+$("#form").submit(function()){
+	$.ajax({
+		type: "POST",
+		url: "#",
+		data: $(this).serialize()
+	}).done(function(){
+		alert("Спасибо за заявку!")
+		setTimeout(function(){
+		}, 1000);
+	});
+	return false
+});
+*/
